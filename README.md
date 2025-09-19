@@ -61,9 +61,4 @@ The program demonstrates **object-oriented programming** and applies several **s
 - The main() method is used to cluster steps associated together in a logical order that enhances the business flow and program readability.
 
 
-##  How to Run
-1. Install Python 3.x
-2. Clone this repository:
-```bash
-git clone https://github.com/your username/ requisition-system.git.
 
