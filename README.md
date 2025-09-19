@@ -26,7 +26,7 @@ The program demonstrates **object-oriented programming** and applies several **s
 - Enhancement : Repetition of input validation logic in more than one way - may be consolidated in a helper function.
   
 
-### 2. **Encapsulation -  keeping an object’s data and the methods that work on that data together, and controlling access to that data so it can’t be changed in unexpected ways.**
+### 2. **Encapsulation -  keeping an object’s data and  methods that work on that data together, and controlling access to that data so it can’t be changed in unexpected ways.**
 
 - All the data concerning requisitions is agented in the form of attributes in the RequisitionSystem class.
 - Enhancement : Turn attributes private (i.e. self. total cost) and access them via getters/setters.
@@ -38,13 +38,13 @@ The program demonstrates **object-oriented programming** and applies several **s
 - Checking of empty strings is redundantly executed in various ways.
 - It may be re-written into one reusable validation.
 
-### 4. **Open/Closed Principle - means code should be open to adding new features but closed to changing existing code, so you can extend functionality without breaking what already works.**
+### 4. **Open/Closed Principle - means code should be open to add new features but should be closed to changing existing code, so you can extend functionality without breaking what already works.**
 
 - In requisition approval One can add additional approval levels to the approval logic in requisition approval without changing the structure of the method.
 - This renders the system to changes.
 
 
-### 5. **Separation of Concerns - dividing a program into distinct sections, where each section handles a specific type of work, such as processing data or displaying results.**
+### 5. **Separation of Concerns - Divides a program into different sections, where each section deals with a specific type of work, such as processing data or displaying results.**
 
 - Display methods (`display_requisition()` and `requisition statistic) are distinctly different to processing methods.
 - This division enhances maintainability and readability.
